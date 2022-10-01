@@ -1,5 +1,5 @@
 # VMess proxy and Traffic transfer (from Iranian server to servers outside Iran)
-# #مهسا_امینی   #mahsaamini
+# #مهسا_امینی   #MahsaAmini
 
 # server side :
 ## Non-Iranian server commands:
