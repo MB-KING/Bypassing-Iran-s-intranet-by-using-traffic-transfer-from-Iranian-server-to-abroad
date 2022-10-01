@@ -127,7 +127,7 @@ sudo apt upgrade -y
 ```
 ## 3-
 ```sh
-sudo apt install iptables-persisten
+sudo apt install iptables-persistent
 ```
 ```sh
 nano /etc/iptables/rules.v4
@@ -153,6 +153,22 @@ COMMIT
 COMMIT
 ```
 ## 4-
+```sh
+nano /etc/sysctl.conf
+```
+Add the following command to the beginning of the file and save
+```sh
+net.ipv4.ip_forward=1
+```
+## 5-
+```sh
+sysctl -p
+```
+## 6-
+```sh
+sysctl --system
+```
+## 7-
 ```sh
 sudo reboot
 ```
